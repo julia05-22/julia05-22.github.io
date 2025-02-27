@@ -21,10 +21,7 @@ author: Julia
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://julia05-22.github.io/"
-    - Learn markdown: "https://julia05-22.github.io/"
-  Author's home: "https://julia05-22.github.io/"
+  Posts: "https://julia05-22.github.io/"
 
 ################
 # --- Logo --- #
@@ -41,7 +38,6 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
-
 #####################################
 # --- Footer social media links --- #
 #####################################
@@ -50,7 +46,7 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "suhee9305@gmail.com"
+  email: "rueng@naver.com"
   # facebook: deanattali
   # github: daattali
   # twitter: daattali
@@ -134,16 +130,16 @@ navbar-var-length: false
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
+text-col: "#42708C"
+link-col: "#F25A38"
 hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+navbar-col: "#F2F2F2"
+navbar-text-col: "#42708C"
+navbar-border-col: "#C1C1C1FF"
+footer-col: "#F2F2F2"
+footer-text-col: "#7EADBFFF"
+footer-link-col: "#42708C"
+footer-hover-col: "#ED99A0FF"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -268,16 +264,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
@@ -296,7 +290,6 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
