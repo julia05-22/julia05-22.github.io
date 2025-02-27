@@ -3,3 +3,10 @@ layout: home
 title: Julia's Blog
 subtitle: -
 ---
+
+<h1>최근 포스트</h1>
+<ul>
+  {% for post in site.posts %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
